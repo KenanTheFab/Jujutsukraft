@@ -1,0 +1,38 @@
+{
+    "weight": 1,
+    "max_level": 1,
+    "effects": {
+        "minecraft:post_attack": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "jujutsucraft:jujutsukaisenathome/infinity/givepurple"
+                },
+                "enchanted": "attacker",
+                "affected": "attacker"
+            },
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "jujutsucraft:jujutsukaisenathome/general/blackflash"
+                },
+                "enchanted": "attacker",
+                "affected": "attacker"
+            }
+        ]
+    },
+    "anvil_cost": 0,
+    "min_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "description": "Hollow Technique: Purple",
+    "supported_items": "#minecraft:swords",
+    "slots": [
+        "hand"
+    ]
+}

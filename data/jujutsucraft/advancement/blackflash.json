@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible",
+            "conditions": {
+                "item": {
+                    "components": {
+                        "minecraft:custom_data": {
+                            "sukunafinger": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "icon": {
+            "id": "minecraft:redstone_block"
+        },
+        "title": "BLACK FLASH!",
+        "description": "Good job, brother!",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "jujutsucraft:jujutsucraft",
+    "rewards": {
+        "experience": 300
+    }
+}

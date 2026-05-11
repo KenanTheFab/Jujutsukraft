@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": "{cycle_click:1b}"
+                    }
+                },
+                "player": {
+                    "equipment": {
+                        "mainhand": {}
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "jujutsucraft:cycleabilitymain"
+    }
+}

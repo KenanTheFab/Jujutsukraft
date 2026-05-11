@@ -1,0 +1,26 @@
+[
+    {
+        "function": "minecraft:set_item",
+        "item": "heart_of_the_sea"
+    },
+    {
+    "function": "minecraft:set_components",
+    "components": {
+        "minecraft:consumable": {
+            "consume_seconds": 1000,
+            "animation": "bow"
+            },
+            "minecraft:custom_data": "{right_click:1b,domaincloseuv:1b,domaintoggle:1b,ct:1b}",
+            "minecraft:food": {
+                "nutrition": 0,
+                "saturation": 0,
+                "can_always_eat": true
+            },
+        "minecraft:item_name": "CLOSE DOMAIN",
+                "minecraft:enchantments": {
+              "minecraft:vanishing_curse": 1,
+              "minecraft:binding_curse": 1
+            }
+        }
+    }
+]

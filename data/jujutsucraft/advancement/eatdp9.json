@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible",
+            "conditions": {
+                "item": {
+                    "components": {
+                        "minecraft:custom_data": {
+                            "deathpainting": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 10,
+        "function": "jujutsucraft:jujutsukaisenathome/general/giveatechnique/unlockbloodmanipulation"
+    },
+    "display": {
+        "icon": {
+            "id": "minecraft:tadpole_bucket"
+        },
+        "title": "9 of 9.",
+        "description": "The more the merrier!",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "jujutsucraft:eatdp"
+}

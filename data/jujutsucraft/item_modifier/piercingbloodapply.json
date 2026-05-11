@@ -1,0 +1,35 @@
+[
+  {
+    "function": "minecraft:set_item",
+    "item": "minecraft:potion"
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:potion_contents": {
+        "custom_color": 16711680
+      },
+            "minecraft:consumable": {
+          "consume_seconds": 1000,
+          "animation": "bow"
+          },
+          "minecraft:custom_data": "{right_click:1b,piercingblood:1b,cycle_click:1b,ct:1b}",
+          "minecraft:food": {
+            "nutrition": 0,
+            "saturation": 0,
+            "can_always_eat": true
+          },
+        "minecraft:item_name": "Extension Technique: Piercing Blood (Regular)",
+        "minecraft:enchantments": {
+              "jujutsucraft:boogiewoogie": 1,
+              "minecraft:vanishing_curse": 1,
+              "minecraft:binding_curse": 1
+            },
+      "minecraft:custom_name": {
+        "color": "dark_red",
+        "shadow_color": -43691,
+        "text": "Extension Technique: Piercing Blood (Regular)"
+      }
+    }
+  }
+]

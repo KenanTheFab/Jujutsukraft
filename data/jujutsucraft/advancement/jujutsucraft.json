@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "display": {
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "icon": {
+            "id": "minecraft:soul_campfire"
+        },
+        "frame": "challenge",
+        "title": "Sorcerer Fight!",
+        "description": "The beginning of your journey.",
+        "background": "minecraft:block/ancient_debris_side"
+    }
+}

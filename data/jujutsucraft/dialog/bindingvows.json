@@ -1,0 +1,81 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "BINDING VOWS",
+    "type": "text",
+    "underlined": true,
+    "hover_event": {
+      "action": "show_text",
+      "value": "Hover over the options for additional information!"
+    }
+  },
+  "body": [],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "after_action": "none",
+  "pause": false,
+  "columns": 1,
+  "actions": [
+    {
+      "label": "Exchange cursed energy reserves for recovery.",
+      "tooltip": {
+        "text": "(-2000 max cursed energy for +1 CE recovery tier.)",
+        "extra": [
+          {
+            "text": "\nCan put you into the negatives!",
+            "color": "red"
+          }
+        ]
+      },
+      "width": 300,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function jujutsucraft:jujutsukaisenathome/general/menus/bindingvows/ceforregen"
+      }
+    },
+    {
+      "label": "Exchange technique for significantly more cursed energy.",
+      "tooltip": {
+        "text": "(Lose one of your technique in exchange for +10000 max CE) ",
+        "extra": [
+          {
+            "text": "\nWill not work if you lack a CT.",
+            "color": "red",
+            "bold": false,
+            "underlined": false
+          }
+        ]
+      },
+      "width": 300,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function jujutsucraft:jujutsukaisenathome/general/menus/bindingvows/ctforce"
+      }
+    },
+    {
+      "label": "Exchange recovery for more cursed energy.",
+      "tooltip": {
+        "text": "(-1 CE recovery tier for +1000 max CE)",
+        "extra": [
+          {
+            "text": "\nWill not work if you are at the lowest tier.",
+            "color": "red"
+          }
+        ]
+      },
+      "width": 300,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function jujutsucraft:jujutsukaisenathome/general/menus/bindingvows/regenforcemax"
+      }
+    },
+    {
+      "label": "Current Stats.",
+      "width": 300,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function jujutsucraft:jujutsukaisenathome/general/menus/playerctstats"
+      }
+    }
+  ]
+}

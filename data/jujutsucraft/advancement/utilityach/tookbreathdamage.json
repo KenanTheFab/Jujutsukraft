@@ -1,0 +1,33 @@
+{
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "tags": [
+                            {
+                                "id": "is_drowning",
+                                "expected": true
+                            }
+                        ]
+                    }
+                },
+                "player": {
+                    "equipment": {
+                        "chest": {
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "adaptive": true
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "jujutsucraft:adaptation/reactbreath"
+    }
+}

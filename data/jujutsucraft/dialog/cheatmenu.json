@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Scoreboard display shortcut",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "Display the scoreboard for...",
+    "width": 200
+  },
+  "inputs": [],
+  "can_close_with_escape": true,
+  "after_action": "close",
+  "columns": 1,
+  "actions": [
+    {
+      "label": "abilitycooldown",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "scoreboard objectives setdisplay sidebar abilitycooldowns"
+      }
+    },
+    {
+      "label": "lifetime",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "scoreboard objectives setdisplay sidebar lifetime"
+      }
+    },
+    {
+      "label": "entityid0",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "scoreboard objectives setdisplay sidebar entityid0"
+      }
+    },
+    {
+      "label": "motion_x1",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "scoreboard objectives setdisplay sidebar motion_x1"
+      }
+    },
+    {
+      "label": "motion_x2",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "scoreboard objectives setdisplay sidebar motion_x2"
+      }
+    }
+  ]
+}

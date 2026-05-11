@@ -1,0 +1,17 @@
+{
+    "values": [
+        "minecraft:experience_orb",
+        "minecraft:item",
+        "minecraft:area_effect_cloud",
+        "minecraft:fireball",
+        "minecraft:small_fireball",
+        "minecraft:armor_stand",
+        "minecraft:block_display",
+        "minecraft:marker",
+        "minecraft:breeze_wind_charge",
+        "minecraft:wind_charge",
+        "minecraft:marker",
+        "minecraft:item_frame",
+        "minecraft:glow_item_frame"
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "weight": 1,
+    "max_level": 1,
+    "effects": {
+        "minecraft:post_attack": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "effects": [],
+                    "function": "jujutsucraft:jujutsukaisenathome/infinity/givered"
+                },
+                "enchanted": "attacker",
+                "affected": "attacker"
+            },
+                        {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "effects": [],
+                    "function": "jujutsucraft:jujutsukaisenathome/general/blackflash"
+                },
+                "enchanted": "attacker",
+                "affected": "attacker"
+            }
+        ],
+        "minecraft:attributes": [
+            {
+                "attribute": "minecraft:attack_knockback",
+                "id": "redknockback",
+                "amount": 10,
+                "operation": "add_value"
+            },
+            {
+                "attribute": "minecraft:entity_interaction_range",
+                "id": "redrange",
+                "amount": -3,
+                "operation": "add_value"
+            }
+        ]
+    },
+    "anvil_cost": 0,
+    "min_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "description": "Cursed Technique Reversal: Red",
+    "supported_items": "#minecraft:swords",
+    "slots": [
+        "hand",
+        "mainhand"
+    ]
+}

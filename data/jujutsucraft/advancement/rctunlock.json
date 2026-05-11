@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:used_totem"
+        }
+    },
+    "rewards": {
+        "function": "jujutsucraft:jujutsukaisenathome/general/giverct"
+    },
+    "display": {
+        "icon": {
+            "id": "minecraft:totem_of_undying"
+        },
+        "title": "For real?",
+        "description": "For real, real!",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "jujutsucraft:jujutsucraft"
+}

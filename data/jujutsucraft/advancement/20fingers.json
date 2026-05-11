@@ -1,0 +1,42 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible",
+            "conditions": {
+                "item": {
+                    "components": {
+                        "minecraft:custom_data": {
+                            "sukunafinger": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "icon": {
+            "id": "minecraft:player_head",
+            "components": {
+                "minecraft:profile": {
+                    "name": "textures",
+                    "properties": [
+                        {
+                            "name": "textures",
+                            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2EzY2FkZDBmZDQxNTI1ZWY5Mjc0OWFhODVhZmIzZjBkNTJhZWU1NTAxOTViYmUzNTA1MzdjZmJiM2ZkMWM1ZSJ9fX0="
+                        }
+                    ]
+                }
+            }
+        },
+        "title": "A delightful meal.",
+        "description": "Eat 20 of sukuna's fingers!",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "jujutsucraft:15fingers",
+    "rewards": {
+        "experience": 100
+    }
+}

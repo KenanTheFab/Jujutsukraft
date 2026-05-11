@@ -1,0 +1,11 @@
+[
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "components": {
+        "minecraft:damage_type": "minecraft:on_fire"
+      }
+    }
+  }
+]

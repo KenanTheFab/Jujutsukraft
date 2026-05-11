@@ -1,0 +1,60 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "000",
+        "#*#",
+        "000"
+    ],
+    "key": {
+        "0": "minecraft:iron_block",
+        "#": "minecraft:glass",
+        "*": "minecraft:tadpole_bucket"
+    },
+    "result": {
+        "id": "minecraft:frogspawn",
+        "components": {
+            "minecraft:consumable": {
+                "consume_seconds": 1,
+                "animation": "eat",
+                "on_consume_effects": [
+                    {
+                        "type": "minecraft:apply_effects",
+                        "effects": [
+                            {
+                                "id": "minecraft:poison",
+                                "amplifier": 3,
+                                "duration": 200
+                            }
+                        ]
+                    }
+                ]
+            },
+            "minecraft:max_stack_size": 9,
+            "minecraft:item_name": "Cursed Womb: Death Painting",
+            "minecraft:lore": [
+                {
+                    "text": "Eat to possibly increase your cursed energy recovery speed!"
+                }
+            ],
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 1,
+                "can_always_eat": true
+            },
+            "minecraft:attribute_modifiers": [
+                {
+                    "type": "minecraft:block_interaction_range",
+                    "id": "dpbr",
+                    "amount": -6,
+                    "operation": "add_value",
+                    "display": {
+                        "type": "hidden"
+                    }
+                }
+            ],
+            "minecraft:custom_data": {
+                "fakedp": 1
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "values": [
+        "#minecraft:mineable/axe",
+        "#minecraft:mineable/hoe",
+        "#minecraft:mineable/pickaxe",
+        "#minecraft:mineable/pickaxe",
+        "#minecraft:wool",
+        "#minecraft:wool_carpets",
+        "#minecraft:sword_instantly_mines",
+        "#minecraft:sword_efficient"
+    ]
+}

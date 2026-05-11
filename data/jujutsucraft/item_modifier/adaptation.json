@@ -1,0 +1,15 @@
+[
+    {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+            {
+                "attribute": "minecraft:burning_time",
+                "id": "aetetegt",
+                "amount": -10,
+                "operation": "add_value",
+                "slot": "chest"
+            }
+        ],
+        "replace": false
+    }
+]

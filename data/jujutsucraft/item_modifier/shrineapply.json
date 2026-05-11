@@ -1,0 +1,28 @@
+[
+  {
+  "function": "minecraft:set_item",
+  "item": "iron_sword"
+  },
+        {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:consumable": {
+            "consume_seconds": 1000,
+            "animation": "none"
+          },
+          "minecraft:custom_data": "{right_click:1b,sukuna:1b,ct:1b}",
+              "minecraft:food": {
+                "nutrition": 0,
+                "saturation": 0,
+                "can_always_eat": true
+              },
+          "minecraft:item_name": "Cursed Technique: Shrine",
+          "minecraft:enchantments": {
+              "jujutsucraft:shrine": 1,
+              "minecraft:vanishing_curse": 1,
+              "minecraft:binding_curse": 1
+            }
+        }
+    }
+    
+]

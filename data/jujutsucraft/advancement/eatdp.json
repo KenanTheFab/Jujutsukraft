@@ -1,0 +1,30 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "components": {
+                        "minecraft:custom_data": {
+                            "deathpainting": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "display": {
+        "icon": {
+            "id": "minecraft:frogspawn"
+        },
+        "title": "1 of 9.",
+        "description": "Witness me, my brothers!",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "jujutsucraft:jujutsucraft"
+}

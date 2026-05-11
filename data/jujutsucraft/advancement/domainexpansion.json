@@ -1,0 +1,32 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:used_totem",
+            "conditions": {
+                "item": {
+                    "components": {
+                        "minecraft:custom_data": {
+                            "sukunafinger": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "jujutsucraft:jujutsukaisenathome/general/consumedfinger",
+        "experience": 10
+    },
+    "display": {
+        "icon": {
+            "id": "heart_of_the_sea"
+        },
+        "title": "Imagine a future version of yourself...",
+        "description": "I'll do it!",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "jujutsucraft:pinnacle"
+}

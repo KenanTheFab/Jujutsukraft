@@ -1,0 +1,27 @@
+[
+    {
+        "function": "minecraft:set_item",
+        "item": "minecraft:diamond_sword"
+    },
+    {
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:consumable": {
+          "consume_seconds": 1000,
+          "animation": "none"
+          },
+          "minecraft:custom_data": "{right_click:1b,gojoblue:1b,cycle_click:1b,ct:1b}",
+          "minecraft:food": {
+            "nutrition": 0,
+            "saturation": 0,
+            "can_always_eat": true
+          },
+        "minecraft:item_name": "Curse Technique Lapse: Blue",
+        "minecraft:enchantments": {
+              "jujutsucraft:blue": 1,
+              "minecraft:vanishing_curse": 1,
+              "minecraft:binding_curse": 1
+            }
+        } 
+    }
+]

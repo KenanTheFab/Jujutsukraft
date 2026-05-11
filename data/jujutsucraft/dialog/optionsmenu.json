@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "JUJUTSUCRAFT ACTIONS",
+    "underlined": true
+  },
+  "body": [],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "after_action": "none",
+  "pause": false,
+  "columns": 1,
+  "actions": [
+    {
+      "label": "Binding Vows",
+      "width": 130,
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "jujutsucraft:bindingvows"
+      }
+    },
+    {
+      "label": "Give CT items",
+      "width": 130,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger cursedtechnique"
+      }
+    },
+    {
+      "label": "Current stats",
+      "width": 130,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function jujutsucraft:jujutsukaisenathome/general/menus/playerctstats"
+      }
+    }
+  ]
+}

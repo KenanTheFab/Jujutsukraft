@@ -1,0 +1,33 @@
+{
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                        "type": {
+                            "tags": [
+                            {
+                                "id": "minecraft:is_fall",
+                                "expected": true
+                            }
+                        ]
+                    }
+                },
+                "player": {
+                    "equipment": {
+                        "chest": {
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "adaptive": true
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "jujutsucraft:adaptation/reactfall"
+    }
+}

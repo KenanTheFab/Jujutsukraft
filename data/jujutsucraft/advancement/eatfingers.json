@@ -1,0 +1,30 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "components": {
+                        "minecraft:custom_data": {
+                            "sukunafinger": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "jujutsucraft:jujutsukaisenathome/general/consumedfinger",
+        "experience": 10
+    },
+    "display": {
+        "icon": {
+            "id": "minecraft:rotten_flesh"
+        },
+        "title": "Your power grows!",
+        "description": "Just a few more...",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:wooden_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:unbreakable": {},
+                                "minecraft:custom_data": {
+                                    "dpdragonhead": 1,
+                                    "right_click": 1
+                                },
+                                "minecraft:damage_type": "minecraft:player_explosion",
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:entity_interaction_range",
+                                        "id": "cleavereach",
+                                        "amount": -2.5,
+                                        "operation": "add_value",
+                                        "display": {
+                                            "type": "default"
+                                        }
+                                    },
+                                    {
+                                        "type": "minecraft:attack_damage",
+                                        "id": "cleavedamage",
+                                        "amount": 10,
+                                        "operation": "add_value"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

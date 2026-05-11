@@ -1,0 +1,54 @@
+{
+    "weight": 1,
+    "max_level": 1,
+    "effects": {
+        "minecraft:post_attack": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "jujutsucraft:jujutsukaisenathome/infinity/giveblue"
+                },
+                "enchanted": "attacker",
+                "affected": "attacker"
+            },
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "jujutsucraft:jujutsukaisenathome/general/blackflash"
+                },
+                "enchanted": "attacker",
+                "affected": "attacker"
+            },
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "jujutsucraft:jujutsukaisenathome/infinity/bluedraw"
+                },
+                "enchanted": "attacker",
+                "affected": "victim"
+            }
+        ],
+        "minecraft:attributes": [
+            {
+                "attribute": "minecraft:entity_interaction_range",
+                "id": "bluerange",
+                "amount": 6,
+                "operation": "add_value"
+            }
+        ]
+    },
+    "anvil_cost": 0,
+    "min_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "description": "Cursed Technique Lapse: Blue",
+    "supported_items": "#minecraft:swords",
+    "slots": [
+        "hand"
+    ]
+}

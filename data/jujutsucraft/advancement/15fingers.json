@@ -1,0 +1,42 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible",
+            "conditions": {
+                "item": {
+                    "components": {
+                        "minecraft:custom_data": {
+                            "sukunafinger": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "icon": {
+            "id": "minecraft:player_head",
+            "components": {
+                "minecraft:profile": {
+                    "name": "textures",
+                    "properties": [
+                        {
+                            "name": "textures",
+                            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmYwMGI1MjgxOWEyMWM0YTY0NTMwYzhjYTA2NDk1MjMyNGQxZDVmNGVlZjY0MDY5ZGJjYjFhMDcwYThmYjkzYiJ9fX0"
+                        }
+                    ]
+                }
+            }
+        },
+        "title": "Something stirs...",
+        "description": "Eat 15 of sukuna's fingers!",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "jujutsucraft:eatfinger",
+    "rewards": {
+        "experience": 100
+    }
+}
