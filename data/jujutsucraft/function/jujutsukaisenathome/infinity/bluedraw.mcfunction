@@ -1,0 +1,1 @@
+execute as @s at @s on attacker run tp ^ ^ ^-1

@@ -1,0 +1,1 @@
+execute as @n[type=!#jujutsucraft:nonlivingentities] run damage @s 8 minecraft:sting by @e[sort=nearest,limit=1,type=minecraft:player]
