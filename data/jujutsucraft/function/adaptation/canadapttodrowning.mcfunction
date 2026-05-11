@@ -1,0 +1,1 @@
+execute as @s unless score @s adaptcooldown matches 1.. run say adapt to drowning

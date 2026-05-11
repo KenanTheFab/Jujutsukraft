@@ -1,0 +1,3 @@
+$item modify entity @s armor.chest {function:set_attributes,modifiers:[{attribute:burning_time,id:fireadapt,amount:$(burnval),operation:add_multiplied_base,slot:armor},{attribute:explosion_knockback_resistance,id:knockbackadapt,amount:$(knockval),operation:add_multiplied_base,slot:armor},{attribute:oxygen_bonus,id:breathadapt,amount:$(breathval),operation:add_value,slot:armor},{attribute:safe_fall_distance,id:falladapt,amount:$(fallval),operation:add_value,slot:armor}],replace:false}
+playsound minecraft:block.amethyst_block.resonate player @s ~ ~ ~
+effect give @s minecraft:instant_health 1

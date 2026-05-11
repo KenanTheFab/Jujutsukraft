@@ -1,0 +1,1 @@
+advancement revoke @p only jujutsucraft:utilityach/cosiright_click

@@ -1,0 +1,1 @@
+advancement revoke @p only jujutsucraft:utilityach/offcycle_rightclick

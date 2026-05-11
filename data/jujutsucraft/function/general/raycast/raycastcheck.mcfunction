@@ -1,0 +1,2 @@
+execute as @e[dx=0] positioned ~-.99 ~-.99 ~-.99 if entity @s[dx=0] run function jujutsucraft:general/raycast/hit_entity with storage jujutsucraft:identification
+execute if block ~ ~ ~ minecraft:air run function jujutsucraft:general/raycast/laser
